@@ -1,0 +1,464 @@
+{
+    "seed": 308694609,
+    "gridWidth": 15,
+    "gridHeight": 15,
+    "startRoom": 0,
+    "bossRoom": 16,
+    "rooms": [
+        {
+            "id": 0,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 7,
+            "gridY": 7,
+            "cells": [
+                112
+            ]
+        },
+        {
+            "id": 1,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 6,
+            "gridY": 7,
+            "cells": [
+                111
+            ]
+        },
+        {
+            "id": 2,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 8,
+            "gridY": 7,
+            "cells": [
+                113
+            ]
+        },
+        {
+            "id": 3,
+            "type": "Regular",
+            "shape": "LShape",
+            "gridX": 7,
+            "gridY": 5,
+            "cells": [
+                82,
+                83,
+                97
+            ]
+        },
+        {
+            "id": 4,
+            "type": "Regular",
+            "shape": "LShape",
+            "gridX": 6,
+            "gridY": 8,
+            "cells": [
+                126,
+                127,
+                142
+            ]
+        },
+        {
+            "id": 5,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 9,
+            "gridY": 7,
+            "cells": [
+                114
+            ]
+        },
+        {
+            "id": 6,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 8,
+            "gridY": 4,
+            "cells": [
+                68
+            ]
+        },
+        {
+            "id": 7,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 7,
+            "gridY": 4,
+            "cells": [
+                67
+            ]
+        },
+        {
+            "id": 8,
+            "type": "Item",
+            "shape": "OneByOne",
+            "gridX": 7,
+            "gridY": 10,
+            "cells": [
+                157
+            ]
+        },
+        {
+            "id": 9,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 9,
+            "gridY": 8,
+            "cells": [
+                129
+            ]
+        },
+        {
+            "id": 10,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 9,
+            "gridY": 4,
+            "cells": [
+                69
+            ]
+        },
+        {
+            "id": 11,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 8,
+            "gridY": 3,
+            "cells": [
+                53
+            ]
+        },
+        {
+            "id": 12,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 6,
+            "gridY": 4,
+            "cells": [
+                66
+            ]
+        },
+        {
+            "id": 13,
+            "type": "Regular",
+            "shape": "TwoByTwo",
+            "gridX": 10,
+            "gridY": 7,
+            "cells": [
+                115,
+                116,
+                130,
+                131
+            ]
+        },
+        {
+            "id": 14,
+            "type": "Regular",
+            "shape": "LShape",
+            "gridX": 8,
+            "gridY": 9,
+            "cells": [
+                143,
+                144,
+                159
+            ]
+        },
+        {
+            "id": 15,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 6,
+            "gridY": 5,
+            "cells": [
+                81
+            ]
+        },
+        {
+            "id": 16,
+            "type": "Boss",
+            "shape": "OneByOne",
+            "gridX": 12,
+            "gridY": 8,
+            "cells": [
+                132
+            ]
+        },
+        {
+            "id": 17,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 11,
+            "gridY": 6,
+            "cells": [
+                101
+            ]
+        },
+        {
+            "id": 18,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 10,
+            "gridY": 10,
+            "cells": [
+                160
+            ]
+        },
+        {
+            "id": 19,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 13,
+            "gridY": 8,
+            "cells": [
+                133
+            ]
+        },
+        {
+            "id": 20,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 12,
+            "gridY": 9,
+            "cells": [
+                147
+            ]
+        },
+        {
+            "id": 21,
+            "type": "Regular",
+            "shape": "OneByOne",
+            "gridX": 12,
+            "gridY": 6,
+            "cells": [
+                102
+            ]
+        },
+        {
+            "id": 22,
+            "type": "Regular",
+            "shape": "LShape",
+            "gridX": 10,
+            "gridY": 4,
+            "cells": [
+                70,
+                71,
+                86
+            ]
+        },
+        {
+            "id": 23,
+            "type": "Shop",
+            "shape": "OneByOne",
+            "gridX": 11,
+            "gridY": 10,
+            "cells": [
+                161
+            ]
+        },
+        {
+            "id": 24,
+            "type": "Secret",
+            "shape": "OneByOne",
+            "gridX": 11,
+            "gridY": 9,
+            "cells": [
+                146
+            ]
+        }
+    ],
+    "doors": [
+        {
+            "from": 0,
+            "to": 1,
+            "type": "Amaldiçoada",
+            "cost": 9
+        },
+        {
+            "from": 0,
+            "to": 2,
+            "type": "Madeira",
+            "cost": 1
+        },
+        {
+            "from": 0,
+            "to": 3,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 0,
+            "to": 4,
+            "type": "Veneno",
+            "cost": 7
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "Veneno",
+            "cost": 7
+        },
+        {
+            "from": 3,
+            "to": 15,
+            "type": "Espinhos",
+            "cost": 4
+        },
+        {
+            "from": 3,
+            "to": 7,
+            "type": "Madeira",
+            "cost": 1
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "type": "Pedra",
+            "cost": 2
+        },
+        {
+            "from": 4,
+            "to": 14,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 4,
+            "to": 8,
+            "type": "Veneno",
+            "cost": 7
+        },
+        {
+            "from": 5,
+            "to": 13,
+            "type": "Pedra",
+            "cost": 2
+        },
+        {
+            "from": 5,
+            "to": 9,
+            "type": "Espinhos",
+            "cost": 4
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "Madeira",
+            "cost": 1
+        },
+        {
+            "from": 6,
+            "to": 10,
+            "type": "Lacrada",
+            "cost": 10
+        },
+        {
+            "from": 6,
+            "to": 11,
+            "type": "Espinhos",
+            "cost": 4
+        },
+        {
+            "from": 7,
+            "to": 12,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 9,
+            "to": 13,
+            "type": "Trancada",
+            "cost": 5
+        },
+        {
+            "from": 14,
+            "to": 9,
+            "type": "Pedra",
+            "cost": 2
+        },
+        {
+            "from": 10,
+            "to": 22,
+            "type": "Lacrada",
+            "cost": 10
+        },
+        {
+            "from": 15,
+            "to": 12,
+            "type": "Madeira",
+            "cost": 1
+        },
+        {
+            "from": 13,
+            "to": 17,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 13,
+            "to": 16,
+            "type": "Gelo",
+            "cost": 8
+        },
+        {
+            "from": 13,
+            "to": 24,
+            "type": "Parede (bomba)",
+            "cost": 6
+        },
+        {
+            "from": 14,
+            "to": 18,
+            "type": "Fogo",
+            "cost": 6
+        },
+        {
+            "from": 16,
+            "to": 19,
+            "type": "Pedra",
+            "cost": 2
+        },
+        {
+            "from": 16,
+            "to": 20,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 17,
+            "to": 21,
+            "type": "Gelo",
+            "cost": 8
+        },
+        {
+            "from": 17,
+            "to": 22,
+            "type": "Ferro",
+            "cost": 3
+        },
+        {
+            "from": 18,
+            "to": 23,
+            "type": "Pedra",
+            "cost": 2
+        },
+        {
+            "from": 24,
+            "to": 20,
+            "type": "Parede (bomba)",
+            "cost": 6
+        },
+        {
+            "from": 23,
+            "to": 24,
+            "type": "Parede (bomba)",
+            "cost": 6
+        }
+    ]
+}
